@@ -1,0 +1,27 @@
+package staticex;
+
+class MyStatic{
+	
+	int iNum;
+	static int sNum;
+	
+}
+
+public class StaticTest {
+
+	public static void main(String[] args) {
+
+		MyStatic ms1 = new MyStatic();
+		
+		System.out.println(ms1.iNum);
+		System.out.println(ms1.sNum);
+		
+		MyStatic ms2 = new MyStatic();
+		System.out.println(ms2.iNum);
+		System.out.println(ms2.sNum);
+		
+		
+	
+	}
+
+}

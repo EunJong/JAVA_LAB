@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="first.Student"/>
+<fullyQualifiedTypeName name="fruit.FruitBuyer"/>
+<fullyQualifiedTypeName name="fruit.FruitSeller"/>
+<fullyQualifiedTypeName name="junit.framework.TestCase"/>
+<fullyQualifiedTypeName name="staticex.Student"/>
+<fullyQualifiedTypeName name="staticex.Person"/>
+<fullyQualifiedTypeName name="singleton.Company"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,14 @@
+package staticex;
+
+public class StaticTest {
+
+	int i;
+	
+	public static void main(String[] args) {
+		int i;
+		
+		StaticTest stest = new StaticTest();
+		System.out.println(stest.i);
+	}
+
+}

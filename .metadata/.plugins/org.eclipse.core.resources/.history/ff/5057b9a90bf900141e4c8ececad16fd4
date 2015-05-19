@@ -1,0 +1,51 @@
+package birthday;
+//과제 birthday class 만들기, day month year넣게함, valid한지 invalid한지 check
+// Birthday(2000, 10, 20);이런식으로 넣으면 true, false, class가 두개 하나는 main돌리는용 
+// day, month, year는 다 private
+//'윤년은 4로 나누어지면서 100으로 나누어 떨어지지 않는 년.'
+//'400으로 나누어 떨어지는 년.' 
+public class Birthday {
+	private int year;
+	private int month;
+	private int day;
+	
+	public Birthday(int year, int month, int day){
+		this.year = year;
+		this.month = month;
+		this.day = day;
+		
+	}
+	
+	public void birthdayCheck(String birthday){
+		if(this.month < 0 || this.month >12)
+			System.out.println(birthday + "False");
+		else if(this.month == 2){
+			if ((this.year % 4 == 0 && this.year % 100 != 0) || this.year % 400 == 0){
+				if(this.day>0 && this.day<30)
+					System.out.println(birthday + "True");
+				else
+					System.out.println(birthday + "False");
+			}
+			else{
+				if(this.day>0 && this.day<29)
+					System.out.println(birthday + "True");
+				else
+					System.out.println(birthday + "False");
+			}
+		}
+		else if(this.month == 4 ||this.month == 6|| this.month ==9|| this.month == 11){
+			if(this.day>0 && this.day<31)
+				System.out.println(birthday + "True");
+			else
+				System.out.println(birthday + "False");
+		}
+		else{
+			if(this.day>0 && this.day<32)
+				System.out.println(birthday + "True");
+			else
+				System.out.println(birthday + "False");
+		}
+		
+	}
+
+}

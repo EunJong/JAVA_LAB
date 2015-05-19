@@ -1,0 +1,18 @@
+package staticex;
+
+public class Student {
+	
+	private String studentName;
+	private String studentAddress;
+	private String studentMajor;
+	
+	private static int studentCode = 1000;
+	
+	public Student(String studentName, String studentAddress, String studentMajor){
+		this.studentName = studentName;
+		this.studentAddress = studentAddress;
+		this.studentMajor = studentMajor;
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package singleton;
+
+public class Company {
+
+	private int employee_number;
+	
+	private Company(){}
+
+	public int getEmployee_number() {
+		return employee_number;
+	}
+
+	public void setEmployee_number(int employee_number) {
+		this.employee_number = employee_number;
+	}
+	
+	
+}

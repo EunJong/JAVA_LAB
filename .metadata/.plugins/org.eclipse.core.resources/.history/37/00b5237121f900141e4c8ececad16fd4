@@ -1,0 +1,14 @@
+package singleton;
+
+public class CompanyTest {
+
+	public static void main(String[] args) {
+
+		Company.instance = null;
+		
+		//Company company = new Company();
+		//Company company2 = new Company();
+		
+	}
+
+}

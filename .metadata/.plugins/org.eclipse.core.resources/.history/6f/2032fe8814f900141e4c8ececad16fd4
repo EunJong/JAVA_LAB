@@ -1,0 +1,13 @@
+package staticex;
+
+public class Student {
+	
+	private String studentName;
+	private String studentAddress;
+	private String studentMajor;
+	
+	private static int studentCode = 1000;
+	
+	
+
+}
